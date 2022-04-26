@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+    /* font-family: 'Lexend Deca', sans-serif; */
 
 :root {
     /* Primary */
@@ -12,7 +13,6 @@
     --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
 }
 
-
 * {
     padding: 0;
     margin: 0;
@@ -21,9 +21,10 @@
 
 body {
     font-size: 15px;
-    /* font-family: 'Inter', sans-serif; */
-    /* font-family: 'Lexend Deca', sans-serif; */
-
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+    background-color: var(--very-dark-blue);
 }
 
 
