@@ -21,25 +21,31 @@
 
 body {
     font-size: 15px;
-    min-height: 100vh;
     font-family: 'Inter', sans-serif;
     color: var(--white);
     background-color: var(--very-dark-blue);
 }
 
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .card {
     width: 327px;
-    display: flex;
-    flex-direction: column;
-    outline: 2px solid white;
+    outline: 2px solid white; 
 }
 
 .card-img {
     outline: 2px solid white;
+    padding: 5rem;
+    height: 240px;
     background-image: url(/images/image-header-mobile.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 5rem;
+
 }
 
 
