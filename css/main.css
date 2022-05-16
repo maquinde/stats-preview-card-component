@@ -27,6 +27,20 @@ body {
     background-color: var(--very-dark-blue);
 }
 
+.card {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid white;
+}
+
+.card-img {
+    outline: 2px solid white;
+    background-image: url(/images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5rem;
+}
 
 
 
